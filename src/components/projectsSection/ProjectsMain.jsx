@@ -8,31 +8,32 @@ const projects = [
     name: "Project 1",
     year: "2025",
     align: "right",
-    image: "../../public/images/project1.jpg",
+    image: `${import.meta.env.BASE_URL}images/project1.jpg`,
     link: "#",
   },
   {
     name: "Project 2",
     year: "2025",
     align: "left",
-    image: "../../public/images/project2.jpg",
+    image: `${import.meta.env.BASE_URL}images/project2.jpg`,
     link: "#",
   },
   {
     name: "Project 3",
     year: "2025",
     align: "right",
-    image: "../../public/images/project4.jpg",
+    image: `${import.meta.env.BASE_URL}images/project4.jpg`,
     link: "#",
   },
   {
     name: "Project 4",
     year: "2025",
     align: "left",
-    image: "../../public/images/project5.jpg",
+    image: `${import.meta.env.BASE_URL}images/project5.jpg`, // just example
     link: "#",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (
