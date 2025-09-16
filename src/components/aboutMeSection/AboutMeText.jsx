@@ -5,7 +5,7 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        Hi! I’m a passionate and hardworking 3rd year BS Information Technology student at Computer Arts and Technological College.
+              Hi! I’m a passionate and hardworking 3rd year BS Information Technology student at Computer Arts and Technological College.
         I specialize in web development, creating responsive and user-friendly websites using tools like React, Tailwind CSS, PHP, and MySQL.
         I’m always eager to learn new technologies, solve real-world problems, and build projects that improve my skills as a future full-stack developer.
         Currently, I’m focused on gaining hands-on experience through personal projects and I’m open to freelance work, internships, or any opportunity that helps me grow in the tech industry.
